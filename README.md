@@ -13,7 +13,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 - Made the forms
 - yea :D
 
-### SyntaxError52 (Adam El Shayeb)
+### SyntaxError52
 - Co-Founder of Classboard
 - Does a lot of development for mostly other pages than the hompage
 - Also has a YouTube channel
