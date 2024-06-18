@@ -118,10 +118,35 @@ h2 {
 }
 
 .banner-changelog {
-    background-image: url('img/banners/changlog.png');
+    background: url('img/banners/changelog.png') center;
     color: white;
     font-family: RobotoCondensed;
     text-align: center;
     font-weight: 1000;
-    height: 450px;
+    height: 350px;
+    object-position: top left;
+    width: 100%;
+    scale: 125%;
+}
+
+#fullbright {
+    position: relative;;
+    z-index: 1;
+}
+
+.banner-help {
+    background: url('img/banners/help.gif') center;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+    scale: 125%;
+}
+
+.title {
+    font-size: 81px;
+    font-weight: 1000;
+    color: white;
+    margin-bottom: -10px;
 }
