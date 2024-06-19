@@ -8,16 +8,9 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown Navigation</title>
     <style>
         body {
             font-family: RobotoCondensed;
-            padding: 20px;
         }
         label {
             font-weight: bold;
@@ -47,32 +40,35 @@
             background-color: blue;
         }
     </style>
-    </head>
-    <body>
-        <h1>Select a destination:</h1>
+        <div class="banner-archives">
+            <br><br><br><br><h1 class="title">Archives</h1>
+        </div>
+        <br>
+
+        <a href="index.html"><button class="nav-button">Home 🏡</button></a>
+
+        <h1 class="header">Select a destination:</h1><br><br>
         <form id="navigationForm" action="#">
             <select id="destination" name="destination">
                 <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-0/home">Classboard v1.0</option>
                 <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-3/home">Classboard v1.3</option>
                 <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-4/home">Classboard v1.4</option>
-                <!-- Add more options as needed -->
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-5/home">Classboard v1.5</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-6/home">Classboard v1.6</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-7/home">Classboard v1.7</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive1-8/home">Classboard v1.8</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-0/home">Classboard v2.0</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-1/home">Classboard v2.1</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-2/home">Classboard v2.2</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-3/home">Classboard v2.3</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive2-4/home">Classboard v2.4</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive3-0/home">Classboard v3.0</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive3-1/home">Classboard v3.1</option>
+                <option value="https://sites.google.com/vhcsk12.com/classboardarchive3-5/home">Classboard v3.5</option>
             </select><br><br><br>
             <button type="submit">Go ➡️</button>
         </form>
-    
-        <script>
-            // Handle form submission
-            document.getElementById('navigationForm').onsubmit = function() {
-                var selectedDestination = document.getElementById('destination').value;
-                if (selectedDestination) {
-                    window.location.href = selectedDestination;
-                }
-                return false; // Prevent form from actually submitting
-            };
-        </script>
     </body>
     </html>
-    
-
 </body>
 </html>

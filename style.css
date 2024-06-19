@@ -192,3 +192,12 @@ h2 {
 .err-text {
     text-align: left;
 }
+
+.banner-archives {
+    background: url(img/banners/archives.jpg) center;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+}
