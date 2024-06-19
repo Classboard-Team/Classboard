@@ -3,7 +3,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 
 ## Meet the Developers
 
-### cobblesteve01 (Charlie Chbeir)
+### cobblesteve01
 - Founded Classboard
 - Current Owner
 - Does most of development
