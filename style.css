@@ -150,3 +150,45 @@ h2 {
     color: white;
     margin-bottom: -10px;
 }
+
+.banner-devs {
+    background: url('img/banners/devs.png') center;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+}
+
+.role {
+    color: #0c4466;
+    font-weight: bold;
+    font-size: 20.5px;
+}
+
+.error {
+    font-family: JetBrains;
+    font-size: 48px;
+    color: black;
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: JetBrains;
+    src: url(fonts/JetBrains.ttf);
+}
+
+.big {
+    font-size: 75px;
+    font-family: RobotoCondensed;
+    font-weight: bolder;
+    color: #0c4466;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -25px;
+}
+
+.err-text {
+    text-align: left;
+}
