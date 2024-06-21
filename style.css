@@ -237,3 +237,22 @@ h2 {
 .client {
     width: 550px;
 }
+
+.banner-shellshock {
+    background: url('img/banners/shellshock.webp') center;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+    scale: 125%;
+}
+
+.banner-tpg {
+    background: url(img/banners/downloads.jpg);
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+}
