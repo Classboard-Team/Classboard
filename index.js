@@ -4,7 +4,7 @@ function duolingoAlert(){
 };
 
 function figureItOut(){
-    document.getElementById('figure-it-out').textContent = 'Whomp Whomp';
+    document.getElementById('figure-it-out').textContent = 'Womp Womp';
     setTimeout(() => {
         document.getElementById('figure-it-out').textContent = 'Or Just Make One?';
     }, 2500)
