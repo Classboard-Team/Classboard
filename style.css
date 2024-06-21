@@ -218,3 +218,22 @@ h2 {
   'GRAD' 0,
   'opsz' 24
 }
+
+.banner-mc {
+  background: url('img/banners/minecraft.png') top center;  
+  color: white;
+  font-family: RobotoCondensed;
+  font-weight: 1000;
+  height: 350px;
+  width: 100%;
+}
+
+.important {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+.client {
+    width: 550px;
+}
