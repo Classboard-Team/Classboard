@@ -149,6 +149,7 @@ h2 {
     font-weight: 1000;
     color: white;
     margin-bottom: -10px;
+    z-index: 2;
 }
 
 .banner-devs {
@@ -255,4 +256,19 @@ h2 {
     font-weight: 1000;
     height: 350px;
     width: 100%;
+}
+
+.banner-brawlstars {
+    background: url(img/banners/brawlstars.png) center;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+
+iframe {
+    border-radius: 15px;
 }
