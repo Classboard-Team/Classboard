@@ -272,3 +272,13 @@ h2 {
 iframe {
     border-radius: 15px;
 }
+
+.banner-sports {
+    background: url(img/banners/sports.jpg);
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
