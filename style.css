@@ -282,3 +282,22 @@ iframe {
     width: 100%;
     background-size: cover;
 }
+
+.banner-monkeymart {
+    background: url(img/banners/monkey-mart.png) bottom;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-cookieclicker {
+    background: url(img/banners/cookie-clicker.png) center;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+}
