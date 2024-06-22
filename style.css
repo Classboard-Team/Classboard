@@ -301,3 +301,12 @@ iframe {
     height: 350px;
     width: 100%;
 }
+
+.banner-retro {
+    background: url(img/banners/retro-games.jpg) bottom;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+}
