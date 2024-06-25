@@ -310,3 +310,64 @@ iframe {
     height: 350px;
     width: 100%;
 }
+
+.banner-gd {
+    background: url(img/banners/geometry-dash.png) center;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.card {
+    border-radius: 30px;
+    background-color: #d8d8d8;
+    margin: 15px;
+    height: 415px;
+    width: 275px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+#img {
+    height: 150px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+#breaker {
+    font-size: 10px;
+    color: transparent;
+}
+
+.desc {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.play {
+    border-radius: 15px;
+    background-color: #0c4466;
+    font-family: RobotoCondensed;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 23px;
+    transition: 0.3s;
+}
+
+.header2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #0c4466; 
+    margin-bottom: -10px;
+}
+
+.card:hover {
+    scale: 102%;
+    background-color: rgba(30, 143, 255, 0.315);
+}
