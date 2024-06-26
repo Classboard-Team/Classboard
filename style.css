@@ -396,3 +396,12 @@ iframe {
     background-color: rgba(30, 143, 255, 0.315);
     transform: translate(0, -10px);
 }
+
+.banner-lunch {
+    background: url(img/banners/lunch.gif) center;
+    color: white;
+    font-family: RobotoCondensed;
+    font-weight: 1000;
+    height: 350px;
+    width: 100%;
+}
