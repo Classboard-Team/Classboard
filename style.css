@@ -316,7 +316,7 @@ iframe {
     color: white;
     font-family: RobotoCondensed;
     font-weight: 1000;
-    height: 400px;
+    height: 350px;
     width: 100%;
     background-size: cover;
 }
@@ -368,6 +368,31 @@ iframe {
 }
 
 .card:hover {
-    scale: 102%;
     background-color: rgba(30, 143, 255, 0.315);
+    transform: translate(0, -10px);
+}
+
+.card-invis {
+    border-radius: 30px;
+    background-color: transparent;
+    margin: 15px;
+    height: 415px;
+    width: 275px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.card2 {
+    border-radius: 30px;
+    background-color: #d8d8d8;
+    margin: 15px;
+    height: 325px;
+    width: 275px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.card2:hover {
+    background-color: rgba(30, 143, 255, 0.315);
+    transform: translate(0, -10px);
 }
