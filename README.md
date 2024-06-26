@@ -6,7 +6,7 @@ A great link hub to get places fast! We have Google stuff, other resources, game
 ### cobblesteve01
 - Founded Classboard
 - Current Owner
-- Does most of development
+- Does most of the development
 - Has a YouTube channel
 - Knows HTML, CSS, and JavaScript
 - Main bug fixer
