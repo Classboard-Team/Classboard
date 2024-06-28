@@ -20,7 +20,7 @@ body {
     background-image: url('img/banners/home.png');
     color: rgb(225, 222, 222);
     font-family: RobotoCondensed;
-    height: 350px;
+    height: 400px;
     text-align: center;
     vertical-align: -200px;
 }
@@ -113,7 +113,7 @@ h2 {
     color: rgb(225, 222, 222);
     font-family: RobotoCondensed;
     text-align: center;
-    height: 350px;
+    height: 400px;
 
 }
 
@@ -129,11 +129,10 @@ h2 {
     color: white;
     font-family: RobotoCondensed;
     text-align: center;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     object-position: top left;
     width: 100%;
-    scale: 125%;
+    background-size: cover;
 }
 
 #fullbright {
@@ -145,10 +144,9 @@ h2 {
     background: url('img/banners/help.gif') center;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
-    scale: 125%;
+    background-size: cover;
 }
 
 .title {
@@ -163,8 +161,7 @@ h2 {
     background: url('img/banners/devs.png') center;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
@@ -205,8 +202,7 @@ h2 {
     background: url(img/banners/archives.jpg) center;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
@@ -214,8 +210,7 @@ h2 {
     background: url(img/banners/downloads.jpg) top left;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
@@ -231,8 +226,7 @@ h2 {
   background: url('img/banners/minecraft.png') top center;  
   color: white;
   font-family: RobotoCondensed;
-  font-weight: 1000;
-  height: 350px;
+  height: 400px;
   width: 100%;
 }
 
@@ -250,18 +244,16 @@ h2 {
     background: url('img/banners/shellshock.webp') center;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
-    scale: 125%;
+    background-size: cover;
 }
 
 .banner-tpg {
     background: url(img/banners/downloads.jpg);
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
@@ -269,8 +261,7 @@ h2 {
     background: url(img/banners/brawlstars.png) center;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
     background-size: cover;
     z-index: 0;
@@ -284,8 +275,7 @@ iframe {
     background: url(img/banners/sports.jpg);
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
     background-size: cover;
 }
@@ -294,8 +284,7 @@ iframe {
     background: url(img/banners/monkey-mart.png) bottom;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
     background-size: cover;
 }
@@ -304,8 +293,7 @@ iframe {
     background: url(img/banners/cookie-clicker.png) center;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
@@ -313,8 +301,7 @@ iframe {
     background: url(img/banners/retro-games.jpg) bottom;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
@@ -322,8 +309,7 @@ iframe {
     background: url(img/banners/geometry-dash.png) center;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
     background-size: cover;
 }
@@ -336,8 +322,10 @@ iframe {
     width: 275px;
     padding: 20px;
     transition: 0.3s;
-    border-width: 2px;
-    border-color: white;
+    border-width: 0.5px;
+    border: white;
+    color: white;
+    border-style: solid;
 }
 
 #img {
@@ -401,6 +389,8 @@ iframe {
     transition: 0.3s;
     border-width: 2px;
     border-color: white;
+    border: white;
+    border-style: solid;
 }
 
 .card2:hover {
@@ -412,11 +402,70 @@ iframe {
     background: url(img/banners/lunch.gif) center;
     color: white;
     font-family: RobotoCondensed;
-    font-weight: 1000;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
 h2 {
     color: white;
+}
+
+li {
+    display: inline;
+    float: left;
+    font-family: inter-medium;
+}
+
+li a {
+    display: block;
+    padding: 13px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    transition: 0.5s;
+    font-family: RobotoCondensed;
+    position: relative;
+    transform: translate(0, 10px);
+}
+
+li a:hover {
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+
+}
+
+ul {
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 5px;
+    font-family: RobotoCondensed;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    transform: none;
+    vertical-align: -10px;
+    display: flex;
+    transform: translate(0, -15px);
+}
+
+.left {
+    float: left;
+}
+
+#theme-toggle-button {
+    width: 115px;
+    transform: translate(0, -3px);
 }

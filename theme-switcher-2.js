@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const setTheme = (theme) => {
         const themeLink = document.getElementById('theme-style');
         console.log('Setting theme:', theme);
-        themeLink.href = theme === 'light-mode' ? 'style.css' : 'dark.css';
+        themeLink.href = theme === 'light-mode' ? '/style.css' : '/dark.css';
         document.cookie = `theme=${theme}; path=/; max-age=31536000`;
         toggleButton.textContent = theme === 'light-mode' ? 'Dark Mode' : 'Light Mode';
     };
