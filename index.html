@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link id="theme-style" rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -40,8 +40,8 @@
         <h2 style="font-size: 34px; font-weight: normal; margin-bottom: -10px;">Welcome to Classboard!</h2>
         <p style="font-size: 21px;">At Classboard, we provide you with games, tools, and other essentials all in one, centralized hub. <br>
              To see the latest updates, check the Changelog. You can find emulators and even surf the web inside of Classboard! <br> 
-             You should also probably bookmark this website. Have fun!<br><p class="ToS"><i>By using this website, you agree to our <span class="lnk"><a href="tos.html" style="color: #0c4466; text-decoration: underline;">Terms of Service.</a></span></i></p>
-    </section>
+             You should also probably bookmark this website. Have fun!<br><p class="ToS"><i>By using this website, you agree to our <span class="lnk"><a href="tos.html" class="lnk">Terms of Service.</a></span></i></p>
+    </section> <center><button id="theme-toggle-button">Switch to Dark Mode</button></center>
     <br><br>
     <main>
         <div class="all-links">
@@ -256,6 +256,6 @@
     <script src="index.js"></script>
     <br><br><br>
     <p class="copyright">© 2024 Classboard Industries. All rights reserved.</p>
-    
+    <script src="theme-switcher.js"></script>
 </body>
 </html>

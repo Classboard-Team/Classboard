@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service</title>
-    <link rel="stylesheet" href="style.css">
+    <link id="theme-style" rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const toggleButton = document.getElementById('theme-toggle-button');
+
+            const setTheme = (theme) => {
+                const themeLink = document.getElementById('theme-style');
+                themeLink.href = theme === 'light-mode' ? 'style.css' : 'dark.css';
+                document.cookie = `theme=${theme}; path=/; max-age=31536000`;
+                toggleButton.textContent = theme === 'light-mode' ? 'Switch to Dark Mode' : 'Switch to Light Mode';
+            };
+
+            const getThemeFromCookie = () => {
+                const match = document.cookie.match(/(^| )theme=([^;]+)/);
+                return match ? match[2] : 'light-mode'; // Default to light-mode
+            };
+
+            const applyStoredTheme = () => {
+                const storedTheme = getThemeFromCookie();
+                setTheme(storedTheme);
+            };
+
+            toggleButton.addEventListener('click', () => {
+                const currentTheme = getThemeFromCookie() === 'light-mode' ? 'dark-mode' : 'light-mode';
+                setTheme(currentTheme);
+            });
+
+            applyStoredTheme();
+        });
+    </script>
 </head>
 <body>
 
@@ -33,5 +62,6 @@
     <br><br>
 
     <p class="copyright">© 2024 Classboard Industries. All rights reserved.</p>
+    
 </body>
 </html>
