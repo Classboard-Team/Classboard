@@ -1,8 +1,11 @@
 document.addEventListener('DOMContentLoaded', (event) => {
+    console.log('Page loaded');
     const toggleButton = document.getElementById('theme-toggle-button');
+    console.log('Toggle button:', toggleButton);
 
     const setTheme = (theme) => {
         const themeLink = document.getElementById('theme-style');
+        console.log('Setting theme:', theme);
         themeLink.href = theme === 'light-mode' ? 'style.css' : 'dark.css';
         document.cookie = `theme=${theme}; path=/; max-age=31536000`;
         toggleButton.textContent = theme === 'light-mode' ? 'Switch to Dark Mode' : 'Switch to Light Mode';
@@ -15,13 +18,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     const applyStoredTheme = () => {
         const storedTheme = getThemeFromCookie();
+        console.log('Stored theme:', storedTheme);
         setTheme(storedTheme);
     };
 
-    toggleButton.addEventListener('click', () => {
-        const currentTheme = getThemeFromCookie() === 'light-mode' ? 'dark-mode' : 'light-mode';
-        setTheme(currentTheme);
-    });
+    if (toggleButton) {
+        toggleButton.addEventListener('click', () => {
+            const currentTheme = getThemeFromCookie() === 'light-mode' ? 'dark-mode' : 'light-mode';
+            setTheme(currentTheme);
+        });
+    }
 
     applyStoredTheme();
 });
